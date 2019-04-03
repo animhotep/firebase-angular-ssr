@@ -16,7 +16,7 @@ module.exports = {
   },
   output: {
     // Puts the output at the root of the dist folder
-    path: path.join(__dirname, 'dist'),
+    path: path.join(__dirname, 'functions/lib/dist/'),
     filename: '[name].js'
   },
   module: {

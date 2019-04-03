@@ -37,7 +37,7 @@ app.get('*.*', express.static(DIST_FOLDER, {
 
 // All regular routes use the Universal engine
 app.get('*', (req: any, res: any) => {
-  res.render('asd', { req });
+  res.render('index', { req });
 });
 
 exports.ssr = functions.https.onRequest(app);
